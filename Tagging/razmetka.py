@@ -47,6 +47,7 @@ while print_option is None:
         print_option = None
 
 print('чтобы выйти из разметки и сохранить результат введите out')
+print('УЧИТЫВАЮТСЯ ПОБОЧКИ ТОЛЬКО В ПОСЛЕДНЕЙ ЧАСТИ ОТЗЫВА. Если есть побочка в перой части - жми "3" = не знаю')
 
 with open(f'{name}_output.tsv', 'a', encoding='utf-8') as out:
     go = True
